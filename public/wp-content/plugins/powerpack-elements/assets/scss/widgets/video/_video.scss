@@ -1,0 +1,11 @@
+.pp-video {
+    position: relative;
+    .pp-video-player > img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    &-item {
+        position: relative;
+    }
+}
